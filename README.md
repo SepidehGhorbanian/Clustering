@@ -1,5 +1,7 @@
 Using the K_Means algorithm from clustering algorithms (unsupervised) 
+
 The code is in Python and it is using the Scikit-learn (Sklearn) library
+
 Dataset: The mall costumers dataset
 
 Step 1: Importing and understanding the dataset
