@@ -1,6 +1,6 @@
-Using the K_Means algorithm and DBSCAN algorithm from clustering algorithms (unsupervised) 
+Using the K_Means algorithm, DBSCAN algorithm and Hierarchical algorithm from clustering algorithms (unsupervised) 
 
-The code is in Python and it is using the Scikit-learn (Sklearn) library
+The code is in Python and it is using the Scikit-learn (Sklearn) library and scipy library
 
 Dataset: The mall costumers dataset
 
@@ -18,3 +18,10 @@ Step 5: Plotting and visualizing the result
 Step 6: Fitting the DBSCAN algorithm to the dataset 
 
 Step 7: Plotting and visalizing the result
+
+Step 8: Plotting the Dendrogram using linkage to find the best number of clusters for Hierarchical algorithm
+
+Step 9: Fitting the AgglomerativeClustering which is a Bottom_Up Hierarchical algorithm to the dataset 
+
+Step 10:  Plotting and visalizing the result
+
