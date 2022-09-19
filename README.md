@@ -10,7 +10,7 @@ The purpose of this project is to cluster the costumers of a mall using differen
 * Visualization
 
 ### Technologies
-* [Python](https://www.python.org/) version 3.6+
+* [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
 * [Matplotlib](https://matplotlib.org/)
 * [Scikit-learn](https://scikit-learn.org/stable/)
