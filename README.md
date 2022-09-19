@@ -1,27 +1,39 @@
-Using the K_Means algorithm, DBSCAN algorithm and Hierarchical algorithm from clustering algorithms (unsupervised) 
+# Mall Costumers Clustering
 
-The code is in Python and it is using the Scikit-learn (Sklearn) library and scipy library
 
-Dataset: The mall costumers dataset
+## Project Intro
+The purpose of this project is to cluster the costumers of a mall using different clustering algorithms and visualizing the results.
 
-Step 1: Importing and understanding the dataset
-The data includes the following features: Customer ID - Customer Gender - Customer Age - Annual Income of the customer - Spending score of the customer
+### Methods Used
+* Data Preprocessing
+* Machine Learning (Clustering algorithms)
+* Visualization
 
-Step 2: Preparing the data by selecting 2 chosen features (annual income and spending score)
+### Technologies
+* [Python](https://www.python.org/) version 3.6+
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
+* [Scipy](https://scipy.org/)
+* [Numpy](https://numpy.org/)
 
-Step 3: Finding the optimal number of clusters for k_means and DBSCAN using the elbow curve: The best value of k appears when the value of 'WCSS' slowly stops decreasing
+## Project Description
+Clustering is an unsupervised method of machine learning. It is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. 
 
-Step 4: Fitting the KMeans algorithm to the dataset 
+Clustering the costumers helps to better understand them, in terms of both static demographics and dynamic behaviors and it has several benefits for the business purposes like better positioning of products or messaging.
 
-Step 5: Plotting and visualizing the result 
+Some of the most important clustering algorithms are K-Means, DBSCAN and Hierarchical. These algorithms have been implemented in this project on the same dataset. The difference in their results is clearly shown by visualizing the results.
 
-Step 6: Fitting the DBSCAN algorithm to the dataset 
+The plot of DBSCAN algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_DBSCAN.png).
 
-Step 7: Plotting and visalizing the result
+The graph of WCSS is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/wcss.png) and the plot of K-Means algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_KMeans.png).
 
-Step 8: Plotting the Dendrogram using linkage to find the best number of clusters for Hierarchical algorithm
+The Dendrogram is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Dendrogram.png) and the plot of Hierarchical algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_Hierarchical.png).
 
-Step 9: Fitting the AgglomerativeClustering which is a Bottom_Up Hierarchical algorithm to the dataset 
+## Getting Started
 
-Step 10:  Plotting and visalizing the result
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. The Mall_Costumers dataset is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Mall_Customers.csv)
+3. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clustering.py)
+
 
