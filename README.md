@@ -24,11 +24,22 @@ Clustering the costumers helps to better understand them, in terms of both stati
 
 Some of the most important clustering algorithms are K-Means, DBSCAN and Hierarchical. These algorithms have been implemented in this project on the same dataset. The difference in their results is clearly shown by visualizing the results.
 
-The plot of DBSCAN algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_DBSCAN.png).
+The plot of DBSCAN algorithm: 
 
-The graph of WCSS is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/wcss.png) and the plot of K-Means algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_KMeans.png).
+![here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_DBSCAN.png).
 
-The Dendrogram is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Dendrogram.png) and the plot of Hierarchical algorithm is stored [here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_Hierarchical.png).
+
+The graph of WCSS and the plot of K-Means algorithm:
+
+![here](https://github.com/Unisepp/Clustering/blob/main/Clustering/wcss.png)  ![here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_KMeans.png).
+
+
+The Dendrogram and the plot of Hierarchical algorithm:
+
+![here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Dendrogram.png)   ![here](https://github.com/Unisepp/Clustering/blob/main/Clustering/Clusters%20of%20customers_Hierarchical.png).
+
+
+
 
 ## Getting Started
 
